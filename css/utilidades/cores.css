@@ -11,7 +11,7 @@
   --cor-3: #dedede;
   --cor-2: #ededed;
   --cor-1: #f7f7f7;
-  --cor-w: #ffffff;
+  --cor-0: #ffffff;
   --cor-p5: #332200;
   --cor-p4: #664400;
   --cor-p3: #a66f00;
@@ -24,7 +24,7 @@
 /* ^^^^^ ACIMA REALIZADO O 'CADASTRO' DE CORES, COLOCAR SEMPRE EM CLASSE COM A RESPECTIVA TAG */
 
 .cor-0 {
-  color: var(--cor-w);
+  color: var(--cor-0);
 }
 
 .cor-1 {
