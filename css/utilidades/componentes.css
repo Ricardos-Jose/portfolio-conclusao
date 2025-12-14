@@ -96,3 +96,7 @@
     font-weight: 400;
   }
 }
+
+.botao a {
+  transition: 0.3s;
+}

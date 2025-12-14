@@ -23,3 +23,7 @@
 @import "./seguros/perguntas.css";
 /* Termos */
 @import "./termos/termos.css";
+
+/* Bicicleta */
+@import "./bicicleta/nimbus.css";
+@import "./bicicleta/seguro-bic.css";
