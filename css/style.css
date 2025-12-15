@@ -12,6 +12,7 @@
 
 /* Utilitários */
 @import "/css/utilidades/componentes.css";
+@import "/css/utilidades/formulario.css";
 
 /* Bicicletas */
 @import "/css/bicicletas/bicicletas-lista.css";
@@ -27,3 +28,7 @@
 /* Bicicleta */
 @import "./bicicleta/nimbus.css";
 @import "./bicicleta/seguro-bic.css";
+
+/* Contatos */
+@import "/css/contatos/contatos.css";
+@import "/css/contatos/lojas.css";
