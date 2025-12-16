@@ -1,0 +1,95 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form .col-2 {
+  grid-column: span 2;
+}
+
+.form label {
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-seriff;
+  margin-bottom: 4px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea,
+.form option,
+.form select,
+.orcamento-termos input {
+  font: 400 1rem/1.5 "Roboto", sans-seriff;
+  background-color: var(--cor-1);
+  border: 1px solid var(--cor-2);
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus,
+.form option:focus,
+.form select:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}
+
+.orcamento-termos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 8px;
+}
+
+.orcamento-termos input {
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.orcamento-termos input {
+  width: 20px;
+  height: 20px;
+  background: var(--cor-1);
+
+  background-color: blue;
+}
+
+.orcamento-termos label {
+  white-space: nowrap;
+}
+.orcamento-termos label {
+  position: relative;
+}
+/* .link1::after {
+  content: "";
+  display: block;
+  width: 59%;
+  height: 1px;
+  background-color: currentColor;
+  position: absolute;
+  right: 0px;
+} */
+
+.orcamento-termos label {
+  position: relative;
+}
+
+.link1 {
+  text-decoration: underline;
+  text-decoration-skip-ink: all;
+}
