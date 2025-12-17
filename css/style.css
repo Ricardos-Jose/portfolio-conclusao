@@ -19,15 +19,15 @@
 @import "./css/bicicletas/bicicletas.css";
 
 /* Seguros */
-@import "../seguros/seguros.css";
-@import "../seguros/vantagens.css";
-@import "../seguros/perguntas.css";
+@import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
 /* Termos */
-@import "../termos/termos.css";
+@import "./termos/termos.css";
 
 /* Bicicleta */
-@import "../bicicleta/nimbus.css";
-@import "../bicicleta/seguro-bic.css";
+@import "./bicicleta/nimbus.css";
+@import "./bicicleta/seguro-bic.css";
 
 /* Contatos */
 @import "./css/contatos/contatos.css";
@@ -35,5 +35,6 @@
 
 /* Orçamento */
 
-@import "../orcamento/orcamento.css";
+@import "./orcamento/orcamento.css";
+
 
